@@ -8,10 +8,9 @@ import {
   createContext,
 } from "react";
 
-// ---------- Context Global ----------
+
 const ThemeContext = createContext();
 
-// ---------- Reducer untuk counter ----------
 function reducer(state, action) {
   switch (action.type) {
     case "tambah":
